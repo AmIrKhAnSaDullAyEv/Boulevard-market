@@ -1,0 +1,135 @@
+@media(max-width: 1024px) {
+    .container {
+        padding: 0px 15px;
+    }
+}
+
+@media(max-width: 992px) {
+    .main-top {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main-top-description {
+        text-align: center;
+    }
+
+    .main-center {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main-center-description {
+        text-align: center;
+    }
+
+    .main-bottom {
+        flex-direction: column;
+    }
+
+    .main-left-description {
+        text-align: center;
+    }
+
+    .main-right-description {
+        text-align: center;
+    }
+
+    .main-bottom-img {
+        margin: 10px 0;
+    }
+
+    .main-cards {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .main-card:nth-of-type(4) {
+        margin-top: 20px;
+    }
+}
+
+@media(max-width: 768px) {
+    .main-card:nth-of-type(3) {
+        margin-top: 20px;
+    }
+
+    .header-title {
+        text-align: center;
+        line-height: 95px;
+    }
+}
+
+@media(max-width: 681px) {
+    .header-title {
+        text-align: center;
+    }
+}
+
+@media(max-width: 576px) {
+    .footer-content {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .footer-icon {
+        margin-top: 10px;
+    }
+
+    .main-top-img {
+        width: 100%;
+    }
+
+    .main-center-img {
+        width: 100%;
+    }
+}
+
+@media(max-width: 539px) {
+    .main-card:nth-of-type(2) {
+        margin-top: 20px;
+    }
+}
+
+@media(max-width: 479px) {
+    .nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .header-right {
+        margin-top: 5px;
+    }
+
+    .header-title {
+        font-size: 73px;
+        line-height: 75px;
+    }
+
+    .footer-icon {
+        margin: 10px 20px;
+    }
+
+    .main-bottom-img {
+        width: 100%;
+    }
+}
+
+@media(max-width: 390px) {
+    .footer-logo {
+        margin-bottom: 5px;
+    }
+
+    .header-nav-left {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main-bottom-center::after {
+        display: none;
+    }
+
+    .main-bottom-center::before {
+        display: none;
+    }
+}
